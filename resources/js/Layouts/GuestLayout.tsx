@@ -1,4 +1,5 @@
 import ApplicationLogo from '@/Components/ApplicationLogo';
+import SKSU from 'public/sksu1.png';
 import { Link } from '@inertiajs/react';
 import { PropsWithChildren } from 'react';
 
@@ -7,7 +8,7 @@ export default function Guest({ children }: PropsWithChildren) {
         <div className="flex min-h-screen flex-col items-center bg-gray-100 pt-6 sm:justify-center sm:pt-0">
             <div>
                 <Link href="/">
-                    <ApplicationLogo className="h-20 w-20 fill-current text-gray-500" />
+                    <img src="https://sksu.edu.ph/wp-content/uploads/2021/04/sksu1.png" className="h-20 w-20" />
                 </Link>
             </div>
 

@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/svg+xml" href="https://sksu.edu.ph/wp-content/uploads/2021/04/sksu1.png" />
 
         <title inertia>{{ config('app.name', 'Laravel') }}</title>
 
